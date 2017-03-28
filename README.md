@@ -1,4 +1,4 @@
-# animated-fortnight
+# Night-Watch
 
 A simple Unix Domain socket server that expectes messages from a process. as a simple "I am alive" check.
 
