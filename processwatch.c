@@ -301,7 +301,7 @@ void *ProcessWatchProcessMsg(void *arg)
 
 void SystemRestart (void)
 {
-	syslog (LOG_ERR, "Packet Masters Down! Reboot Requested by configuration. Rebooting in 10 seconds! ");
+	syslog (LOG_ERR, "Process Down! May Day! May Day! Reboot Requested by configuration. Rebooting in 10 seconds! ");
 	sleep(10);
 	system("reboot");
 }
